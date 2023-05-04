@@ -24,6 +24,7 @@ module.exports = () => {
       // service worker
       new InjectManifest({
         swSrc: "./src-sw.js",
+        // dist folder
         swDest: "src-sw.js",
       }),
       // manifest file
