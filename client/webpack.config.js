@@ -18,7 +18,7 @@ module.exports = () => {
     plugins: [
       // webpack plugun
       new HtmlWebpackPlugin({
-        title: "JATE",
+        title: "Text Editor",
         template: "./index.html",
       }),
       // service worker
@@ -36,7 +36,8 @@ module.exports = () => {
         description: "A simple text editor",
         background_color: "#44bcd8",
         theme_color: "#44bcd8",
-        start_url: "/",
+        start_url: "./",
+        publicPath: "./",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
@@ -60,7 +61,7 @@ module.exports = () => {
           use: {
             loader: "babel-loader",
             options: {
-              presets: [["@babel/preset-env"]],
+              presets: ["@babel/preset-env"],
               plugins: [
                 "@babel/plugin-proposal-object-rest-spread",
                 "@babel/transform-runtime",
