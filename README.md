@@ -40,13 +40,39 @@ MIT
 
 ## ScreenShots
 
-![Screenshot.](./assets/images/get_all_users.png)
+Desktop Icon
+
+![Screenshot.](./Images/desktop_icon.png)
+
+console.log
+
+![Screenshot.](./Images/console_log.png)
+
+Manifest
+
+![Screenshot.](./Images/manifest.png)
+
+Indexed DB
+
+![Screenshot.](./Images/indexed_db.png)
+
+Service Worker
+
+![Screenshot.](./Images/service_worker.png)
+
+Light House Validate
+
+![Screenshot.](./Images/lighthouse.png)
 
 ## Video
 
 n/a
 
 ## Links to Deployment
+
+https://damp-dawn-29818.herokuapp.com/
+
+https://github.com/MegMathis/Text_Editor
 
 ## Credits
 
