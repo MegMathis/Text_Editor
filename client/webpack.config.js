@@ -18,7 +18,7 @@ module.exports = () => {
     plugins: [
       // webpack plugun
       new HtmlWebpackPlugin({
-        title: "Text Editor",
+        title: "JATE",
         template: "./index.html",
       }),
       // service worker
